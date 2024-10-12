@@ -1,5 +1,3 @@
-# Weneto1603.github.io
-
 # My Personal Portfolio
 Welcome to my personal portfolio! This site showcases my projects and experience in computer science, AI, and NLP.
 
