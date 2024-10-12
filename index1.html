@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- icons for the stylesheets -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+        <title>Wen's Portfolio</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Wen's Portfolio</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home_title">Wen Lou </h1>
+                    <h2 class = "home_title_small">MSc Computer Science Graduate</h2>
+
+                    <a href="#" class="button">Get in touch</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/wen-lou-1b51531a1/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Weneto1603" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://x.com/WenLou5613" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+                    
+                </div>
+                <div class="home__img">
+                    <img src="assets/img/prof.jpeg" alt="">
+                </div>
+            </section>
+
+            <!-- about section -->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpeg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Wen</h2>
+                        <p class="about__text">I’m a recent MSc Computer Science graduate with a focus on software engineering and AI. I have a solid foundation in software development and machine learning, as well as hands-on experience in building applications. I'm proficient in Python, SQL and JAvaScript, and have a good understanding of Machine Learning and AI. I’m passionate about coding and am excited to apply my skills in solving real-world challenges.
+
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+
+            <!-- my projects -->
+            <section class="work section" id="work">
+                <h2 class="section-title">My Projects</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="hotel_website.html" class="work__img">
+                        <img src="assets/img/hotel.png" alt="">
+                        <!-- <h5>Hotel Website</h5> -->
+                    </a>
+                    <div>
+                    <h3>Hotel Website</h3>
+                        <p>A fully-functional hotel website that allows users to browse room availability, book reservations, and access hotel services. The project involved designing an intuitive user interface, building a backend with a database to manage room availability and bookings, and ensuring the site is responsive and user-friendly. </p>
+                        <p>Built with HTML, CSS, JavaScript, Python, PostgreSQL, Node.js, ejs</p>
+                    </div>
+                    <a href="" class="work__img">
+                        <img src="assets/img/chatbot.png" alt="">
+                    </a>
+                    <div>
+                        <h3>Chatbot for Rail Services</h3>
+                            <p>A web-based, intelligent chatbot that finds the cheapest train ticket for journey planning, uses machine learning to predict train delays, and provides information that helps railway staff to handle contingencies. </p>
+                            <p>Built with Python, Flask, MongoDB, HTML, CSS and JavaScript</p>
+                        </div>
+                    <a href="" class="work__img">
+                        <img src="assets/img/mud.png" alt="">
+                    </a>
+                    <div>
+                    <h3>Multi-User Dungeon Game</h3>
+                            <p>A multi-user dungeon (MUD) game developed using Object-Oriented Programming, that allows multiple players to explore a text-based virtual world, engage in combat, and solve puzzles. I designed the game to support a variety of gameplay mechanics such as character customization, inventory management, and dynamic combat systems. </p>
+                            <p>Developed with Python</p>
+                        </div>
+                    <a href="" class="work__img">
+                        <img src="assets/img/abuse_detection.png" alt="">
+                    </a>
+                    <div>
+                        <h3>Detecting Abuse in Care Settings</h3>
+                                <p>Detecting abusive language in care homes using natural language processing techniques. This involves dataset development, training
+                                    and evaluating machine learning models, fine-tuning pre-trained large language models, and developing a web-based interface aimed
+                                    at non-technical users. </p>
+                                <p>Developed using TensorFlow, Pytorch, NLP, HuggingFace, Neural Networks, LLMs. Deployed using Streamlit</p>
+                            </div>
+                </div>
+            </section>
+
+            <!-- contact section -->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact Me</h2>
+                
+                <div class="contact__container bd-grid">
+                    <p class="contact_text">If you'd like to get in touch, please feel free to reach out via email or phone.</p>
+                    <ul>
+                        <li>
+                            <i class="fas fa-envelope"></i> 
+                            <a href="mailto:louwenqing@outlook.com">louwenqing@outlook.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i> 
+                            <a href="tel:+1234567890">+44 07596428086</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <div class="footer__social">
+                <!-- <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a> -->
+                <a href="https://www.linkedin.com/in/wen-lou-1b51531a1/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Weneto1603" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://x.com/WenLou5613" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; 2024 Wen Lou</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
